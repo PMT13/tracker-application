@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MainDashboardComponent } from './main-dashboard/main-dashboard.component';
+import { TrackerDashboardPreviewComponent } from './tracker-dashboard-preview/tracker-dashboard-preview.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
     NavBarComponent,
-    MainDashboardComponent
+    MainDashboardComponent,
+    TrackerDashboardPreviewComponent
   ],
   imports: [
     BrowserModule,
